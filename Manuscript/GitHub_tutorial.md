@@ -13,7 +13,9 @@
     - [RとRStudioのインストール or アップデート](#rとrstudioのインストール-or-アップデート)
     - [Gitがすでにインストールされているかチェック](#gitがすでにインストールされているかチェック)
     - [Gitが入っていなかった場合](#gitが入っていなかった場合)
-    - [](#)
+    - [Gitとgithubを繋げる。](#gitとgithubを繋げる)
+    - [gitクライアントについて (オプション)](#gitクライアントについて-オプション)
+    - [SSHキーの設定](#sshキーの設定)
   - [バージョン管理とは](#バージョン管理とは-1)
 - [Gitの基本操作](#gitの基本操作)
   - [インストール](#インストール)
@@ -74,6 +76,7 @@ https://github.com
 https://reffect.co.jp/html/create_github_account_first_time
 がわかりやすいと思います。
 注意点としては、アカウント名は比較的いろんなことに使うので、恥ずかしくなくて長過ぎないものにしておきましょう。  
+メールアドレスとユーザー名はすぐに使うので覚えておきましょう。
 
 #### RとRStudioのインストール or アップデート
 1. Rをインストール
@@ -90,7 +93,10 @@ https://www.rstudio.com/products/rstudio/download/preview/
 
 #### Gitがすでにインストールされているかチェック 
 最初にすでにgitがインストールされていないかチェックします。  
-ターミナル (windownsの場合にはコマンドプロンプト) を開いて、以下を実行します。
+ターミナル (windownsの場合にはコマンドプロンプト) を開きます。
+![terminal](img/terminal.png)
+
+以下を実行します。
 Macの場合
 ```bash
 which git
@@ -117,10 +123,31 @@ git --version
 こちらからどうぞ
 https://git-scm.com/downloads
 
+#### Gitとgithubを繋げる。
+以下をmacの場合ターミナル、windownsの場合Git Bashで実行します。
+GitBashは以下のように探すといいと思います。
+![Git bash](img/GitBash.png)
+Your name と Your addressを自分のものに変えてください。
 
+```
+git config --global user.name "Your name"
+git config --global user.email "Your address"
+git config --global --list
+```
+これで作ったGithubアカウントとあなたのPCのGitを繋げることができます。  
 
-#### 
- 
+#### gitクライアントについて (オプション)
+(最初は飛ばしてOK)
+GitやGitBashは便利ですが、見た目がいかつくて難しいです。文字がたくさん出てきて真っ黒の画面を見るのが好きならそのまま使えばいいと思います。  
+
+僕を含めて、プログラマじゃない人にはもっと画像が出てきた方が良いと思います。
+そのためにあるのがGitクライアントです。GitとGitクラインアントの関係は簡単にいうならRとRStudioの関係にちかいと思います。RStudioは直感的に動かしやすいですが、裏で動いているのはRです。Rを直接動かすのは難しいと思います。そんな感じで、Gitを直感的に動かせるのがGit クライアントです。
+
+とここまで書くと使った方が良さそうですが、正直RStudioやVisual studio codeの機能で同様のことができるので、無理に使わなくて良いと思います。
+興味のある方はSourceTreeやGithub Desktopを調べてみてください。  
+
+#### SSHキーの設定
+(ここはめちゃくちゃ難しいです。頑張りましょう。)  
 
 ### バージョン管理とは
 コードの変更履歴を追跡することで...
