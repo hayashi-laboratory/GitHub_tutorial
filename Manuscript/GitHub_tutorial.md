@@ -232,16 +232,16 @@ Host github.com
 内容をコピーしたらGitHubのホームページに行きます。(クリップボードを更新しないように!)
 
 2. Githubのホームページから以下のように移動します。
-   1. 自分のアイコンをクリック  
-   <img src="img/Github1.png" width="500">   
-   2. 設定をクリック  
-   <img src="img/github2.png" width="200"> 
-   3. SSHをクリック  
-   <img src="img/Github3.png" width="200"> 
-   4. New SSH keyをクリック  
-   <img src="img/Github4.png" width="500"> 
-   5. 適当なタイトル (大抵僕はPC名にしてます) をつけて、コピーしたキーを貼り付けてAdd
-   <img src="img/Github5.png" width="500"> 
+   1. 自分のアイコンをクリック    
+   <img src="img/Github1.png" width="500">     
+   2. 設定をクリック    
+   <img src="img/github2.png" width="200">   
+   3. SSHをクリック    
+   <img src="img/Github3.png" width="200">   
+   4. New SSH keyをクリック    
+   <img src="img/Github4.png" width="500">   
+   5. 適当なタイトル (大抵僕はPC名にしてます) をつけて、コピーしたキーを貼り付けてAdd  
+   <img src="img/Github5.png" width="500">   
 
 これで完了です!  
 ここまでくると、あなたのPCがSSHと言う安全な方法を使ってGithubとやりとりできるようになりました。
@@ -257,10 +257,10 @@ Host github.com
 リポジトリはローカル (みなさんのPC上) でも作れますが、RStudioではなぜかローカルで作ったリポジトリをGithubで共有する際に色々と詰まってしまいました。
 自分だけならいいんですが、結局解決できなかったので、、、
 あと参考にしたwebsiteもGitHubを最初に作るのを推奨しているので、、、
-1. GitHubを開く  
-<img src="img/MakenewRep.png" width="500">   
-1. レポジトリの設定  
-<img src="img/Settings.png" width="500"> 
+1. GitHubを開く    
+<img src="img/MakenewRep.png" width="500">     
+1. レポジトリの設定    
+<img src="img/Settings.png" width="500">   
 ここでは設定をします。
 - 名前: 適当に　でも覚えやすい名前にするといいです。これがPC上のディレクトリ名にもなるので長いと大変です。
 - PrivateかPubliccか: これは公開するかどうかです。研究関連で秘匿情報を含む可能性があるならPrivateが望ましいです。
@@ -274,7 +274,7 @@ Host github.com
 1. Githubで作ったリポジトリを開く  
 2. リポジトリの右上の緑の部分を押す  
 3. 下の画面が開くのでSSHの部分のクリップボードにコピーをおしてコピー  
-<img src="img/Clone.png" width="500">   
+<img src="img/Clone.png" width="500">     
 1. RStudioを開く
 2. File/NewprojectからVersionControl/Gitを選択
 3. Project URL にクリップボードの中身をペースト
@@ -328,7 +328,7 @@ Desktop
 - .. (一つ上の階層のディレクトリ)
 を示しています。
 今こんな感じのフォルダ構成になっているとしましょう。
-<img src="img/Path.png" width="500">   
+<img src="img/Path.png" width="500">     
 そして今あなたがDesktopディレクトリにいる[^4]とします。この時にtest1.csvの相対パスはどうなるかというと
 ```
 ./test1.csv
