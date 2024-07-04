@@ -84,7 +84,8 @@ https://www.rstudio.com/products/rstudio/download/preview/
 
 ### Gitがすでにインストールされているかチェック 
 最初にすでにgitがインストールされていないかチェックします。  
-ターミナル (windownsの場合にはコマンドプロンプト) を開きます。
+ターミナル (windownsの場合にはコマンドプロンプト) を開きます。  
+
 <img src="img/terminal.png" width="500"> 
 
 以下を実行します。
@@ -116,8 +117,10 @@ https://git-scm.com/downloads
 
 ### Gitとgithubを繋げる。
 以下をmacの場合ターミナル、windownsの場合Git Bashで実行します。
-GitBashは以下のように探すといいと思います。
-<img src="img/GitBash.png" width="500"> 
+GitBashは以下のように探すといいと思います。  
+
+<img src="img/GitBash.png" width="500">   
+
 Your name と Your addressを自分のものに変えてください。
 
 ```
@@ -140,7 +143,8 @@ GitやGitBashは便利ですが、見た目がいかつくて難しいです。�
 ### SSHキーの設定
 (ここはめちゃくちゃ難しいです。頑張りましょう。)  
 SSHキーはGitとGithubが安全に通信するためのパスワードみたいなものと理解すれば良いと思います。公開するSSHキーを作成してPCに保存し、同様のものをGithubにも教えておくことで、認証を行います。
-以下の画像がわかりやすいかもしれません。  
+以下の画像がわかりやすいかもしれません。   
+
 <img src="img/SSH_key.png" width="500">   
 
 #### SSHキーをもっているかを確認する。
