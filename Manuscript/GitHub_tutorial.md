@@ -233,15 +233,25 @@ Host github.com
 
 2. Githubのホームページから以下のように移動します。
    1. 自分のアイコンをクリック    
-   <img src="img/Github1.png" width="500">     
-   2. 設定をクリック    
-   <img src="img/github2.png" width="200">   
-   3. SSHをクリック    
-   <img src="img/Github3.png" width="200">   
-   4. New SSH keyをクリック    
-   <img src="img/Github4.png" width="500">   
-   5. 適当なタイトル (大抵僕はPC名にしてます) をつけて、コピーしたキーを貼り付けてAdd  
-   <img src="img/Github5.png" width="500">   
+   
+   <img src="img/Github1.png" width="500">   
+
+   2. 設定をクリック      
+   
+   <img src="img/github2.png" width="200">    
+
+   3. SSHをクリック      
+   
+   <img src="img/Github3.png" width="200">     
+   
+   4. New SSH keyをクリック      
+   
+   <img src="img/Github4.png" width="500">       
+   
+   5. 適当なタイトル (大抵僕はPC名にしてます) をつけて、コピーしたキーを貼り付けてAdd    
+   
+   <img src="img/Github5.png" width="500">     
+
 
 これで完了です!  
 ここまでくると、あなたのPCがSSHと言う安全な方法を使ってGithubとやりとりできるようになりました。
