@@ -431,7 +431,7 @@ Git paneのところに下向きの緑矢印があると思いますので、そ
 
 ファイルを保存すると、右上のGit paneが更新されて、 Normality_test.Rの更新が追跡されていることがわかります。  
 あとはチェックボックスをチェックしてステージにあげます。    
-<img src="img/stage.png" width="500">   
+<img src="img/Stage.png" width="500">   
 
 コミットボタンを押すと  
 
