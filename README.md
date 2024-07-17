@@ -10,7 +10,10 @@ GitHub練習用のレポジトリです。マニュアル (勉強用資料) も�
 
 ## Help
 ### 便利なサイトなど
-- https://backlog.com/ja/git-tutorial/
+- https://backlog.com/ja/git-tutorial/  
+gitとGitHubについてのとてもわかりやすい解説  
+- https://qiita.com/morioka1206/items/6f777c060b88f4a7f3ce  
+ForkとCloneの違いについての解説
 
 ## Authors
 Shinichi Miyazaki (https://github.com/Shinichi-Miyazaki)  
